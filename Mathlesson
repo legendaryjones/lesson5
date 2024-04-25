@@ -1,0 +1,80 @@
+#create function of each math operation
+#allow user input to perform operation
+#include division by zero and potenntial math errors
+
+'''''
+
+num1= input ("Enter a number:")
+num2= input ("Enter another number:")
+
+def addition():
+    
+    num1= input ("Enter a number:")
+    num2= input ("Enter another number:")
+results = int(num1) + int(num2)
+print (results)
+
+num3= input ("Enter a number:")
+num4= input ("Enter another number:")
+
+def subtraction():
+    
+    num3= input ("Enter a number:")
+    num4= input ("Enter another number:")
+results = int(num1) - int(num2)
+print (results)
+
+num5= input ("Enter a number:")
+num6= input ("Enter another number:")
+
+def division():
+    
+    num5= input ("Enter a number:")
+    num6= input ("Enter another number:")
+results = int(num1) / int(num2)
+print (results)
+
+num7= input ("Enter a number:")
+num8= input ("Enter another number:")
+
+def multiplication():
+    
+    num1= input ("Enter a number:")
+    num2= input ("Enter another number:")
+results = int(num1) * int(num2)
+print (results)
+
+
+
+#create shopping cart
+#allow items to be added and stored in cart
+#allow items to be removed from cart
+#allow user to stop adding itmes then print items in cart to be printed
+
+item = input("would you like to add, remove or print items in cart?")
+def shopping_cart ():
+
+    if action == 'add':
+        item= input ("enter the item: ")
+        shopping_cart.append (item)
+        print ({item} ("has been added to shopping_cart"))
+    
+
+#create function to get the average grade (math operation)
+#create function to get higest and lowest grade (sort)
+
+grade1= int (input ("Please enter a grade between 0 and 100"))
+grade2= int (input ("Please enter another grade between 0 and 100"))
+average = (grade1 + grade2) /2
+print (average)
+
+'''''
+
+grades= int (input ("Please enter grades between 0 and 100 seperated by a comma"))
+grades = [int(grade.strip()) for grade in grades_input.split(",")]
+average = sum (int(grades)) /len (int(grades))
+print  (grades)
+print (average)
+
+
+    
